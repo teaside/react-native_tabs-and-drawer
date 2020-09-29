@@ -18,7 +18,7 @@ export class HomeScreen extends Component {
           <Text>Home!</Text>
           <TouchableOpacity
             style={{ marginTop: 20 }}
-            onPress={() => navigation.navigate("HomeDetail")}
+            onPress={() => this.props.navigation.navigate("HomeDetail")}
           >
             <Text>Go Home Detail</Text>
           </TouchableOpacity>
